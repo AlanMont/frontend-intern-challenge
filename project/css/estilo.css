@@ -17,3 +17,30 @@ header{
 .conteudo{
 	text-align: center;
 }
+
+.maisvisitados{
+	text-align: center;
+}
+
+/*Começo Footer */
+
+.hits{
+	text-align: center;
+}
+
+.chaicone{
+	float: left;
+	padding-left: 350px;
+}
+
+.twiticon{
+	float: right;
+	padding-right: 400px;
+}
+
+.faceicone{
+	float: right;
+	padding-right: 50px;
+}
+
+/*Fim Footer */
