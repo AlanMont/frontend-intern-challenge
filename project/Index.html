@@ -2,6 +2,11 @@
 <html>
 	<head>
 			<meta charset="utf-8">
+
+
+			 <!-- Bootstrap CSS -->
+   			 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
 			<title>Desafio Devmagic</title>	
 			<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	</head>
@@ -15,10 +20,20 @@
 			</header>
 
 			<section>
+
 					<div class="conteudo">
 						<h1>Encurte seus links.</h1>
 							<p>Links são longos.Encurte os links que você deseja compartilhar,e acompanhe enquanto viajam através da internet.</p>
-							<input type="text" name="endereco"> <button>Encurtar</button>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm">
+									<input type="text" name="endereco" placeholder="Cole o seu link aqui"> 
+								</div>
+										<div class="col-sm">
+										<button type="button" class="btn btn-warning">Encurtar</button>
+										</div>
+									</div>
+							</div>
 					</div>
 
 					<div class="maisvisitados">

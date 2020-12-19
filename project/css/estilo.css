@@ -1,6 +1,9 @@
-*{
-	box-sizing: :border-box;
+@font-face{
+	font-family: 'Roboto';
+	src: url("../fonts/Roboto/Roboto-Regular.ttf");
+	font-size: 2em;
 }
+
 
 html, body{
 
@@ -15,15 +18,38 @@ header{
 }
 
 .conteudo{
+
 	text-align: center;
 	background-image: url("../../Assets/background-home.jpg");
+	background-size: 100%; 
+	background-position: center;
+	height: 500px !important;
+	font-family: "Roboto-Regular";
+
+	color:#EEE;
+
 	
+}
+
+input{
+  font-size:18px ;
+  display:block ;
+  width:300px ;
+  border:none ;
+  background : none;
+  border-bottom:1px solid #ff6e15 ;
+
+
 
 }
 
-button{
-	background-color: #ff6e15;
-	color: #EEE;
+input:focus 		{ outline:none; }
+
+
+button { 
+	background-color: #ff6e15 !important;
+	color: #EEE !important;
+
 }
 
 .maisvisitados{
