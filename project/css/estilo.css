@@ -4,6 +4,12 @@
 	font-size: 2em;
 }
 
+@font-face{
+	font-family: 'RobotoSlab';
+	src: url("../fonts/RobotoSlab/RobotoSlab.ttf");
+	font-size: 2em;
+}
+
 
 html, body{
 
@@ -20,15 +26,19 @@ header{
 .conteudo{
 
 	text-align: center;
+
 	background-image: url("../../Assets/background-home.jpg");
 	background-size: 100%; 
 	background-position: center;
 	height: 500px !important;
-	font-family: "Roboto-Regular";
+	font-family: "RobotoSlab";
 	color:#EEE;
 	
 	
 }
+
+
+
 
 #linha{
   font-size:18px ;
@@ -58,14 +68,87 @@ button {
 	text-align: center;
 }
 
-/*Começo Footer */
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 90px;
+}
+
+/*"Encurte seus links."*/
+#titulo{
+	font-weight: bolder;
+	padding-top: 90px;
+}
+
+
+p {
+	text-align: center
+	font-size: 200;
+}
+
+.maisvisitados{
+	text-align: center;
+	color: #AA1423;
+	font-family: "RobotoSlab";
+	font-weight: bolder;
+
+}
+
+ul {
+		list-style-type: none;
+		
+}
+
 
 .hits{
 	text-align: center;
 	background-color: #EEE;
 	color: #AA1423;
-	font-family: "Roboto-Regular";
+	font-family: "RobotoSlab";
+	height: 200px;
 }
+
+/*Clique em links*/
+#textocinza{
+	color:	#797979;
+}
+
+#cxclicks{
+	text-align: center;
+	color: #AA1423;
+	font-family: "RobotoSlab";
+	font-weight: bolder;
+
+}
+
+/*Cor do Placeholder */
+
+::-webkit-input-placeholder {
+   color: #ff6e15;
+}
+ 
+:-moz-placeholder { /* Firefox 18- */
+   color: #ff6e15;  
+}
+ 
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ff6e15;  
+}
+ 
+:-ms-input-placeholder {  
+   color: #ff6e15;  
+}
+
+
+
+
+
+/*Começo Footer */
+
+
 
 .chaicone{
 	float: left;
