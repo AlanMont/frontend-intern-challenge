@@ -25,19 +25,19 @@ header{
 	background-position: center;
 	height: 500px !important;
 	font-family: "Roboto-Regular";
-
 	color:#EEE;
-
+	
 	
 }
 
-input{
+#linha{
   font-size:18px ;
   display:block ;
   width:300px ;
   border:none ;
   background : none;
   border-bottom:1px solid #ff6e15 ;
+
 
 
 
@@ -49,6 +49,8 @@ input:focus 		{ outline:none; }
 button { 
 	background-color: #ff6e15 !important;
 	color: #EEE !important;
+	font-weight: bold !important;
+
 
 }
 
@@ -60,6 +62,9 @@ button {
 
 .hits{
 	text-align: center;
+	background-color: #EEE;
+	color: #AA1423;
+	font-family: "Roboto-Regular";
 }
 
 .chaicone{
